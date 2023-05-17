@@ -1,0 +1,133 @@
+body{background-color: #5B5A5A;}
+p{
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5%;
+    background-color: black;
+}
+img{
+    align-items: center;
+}
+.contenedor{
+    display: flex;
+    margin-top: 0%; 
+    padding: 5%;
+    background-color: black;
+}
+
+.contenedor1{
+display: flex;
+justify-content: space-between;
+background-color: black;
+margin-top: 15px;
+padding-right: 80px;
+}
+.conteiner2{
+    color: white;
+    background-color: black;
+}
+h1{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+th{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+td{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.conteiner3{
+    color: white;
+    background-color: black;
+    margin-top: 15px;
+}
+.tipo2{
+   display: flex;
+   background-color: black;
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding: 10px;
+}
+.tipo3{
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+ }
+ .tipo4{
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+ }
+ .tipo5{
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Open Sans';
+ }
+ body{
+     background-image: url(img/fondo.jpg);
+     background-size: cover;
+ }
+ nav{
+     max-width: 900px;
+     margin: auto;
+     background-color: #333;
+     font-size: 20px;
+     margin-top: 50px;
+ }
+ .menu-horizontal{
+     list-style: none;
+     display: flex;
+     justify-content: space-around;
+ }
+ .menu-horizontal > li > a{
+     display: block;
+     padding: 15px 20px;
+     color: white;
+     text-decoration: none;
+ }
+ .menu-horizontal > li:hover{
+     background-color: red;
+ }
+ .menu-vertical{
+     position: absolute;
+     display: none;
+     list-style: none;
+     width: 200px;
+     background-color: rgba(0, 0, 0, .5);
+ }
+ .menu-horizontal li:hover .menu-vertical{
+     display: block;
+ }
+ .menu-vertical li:hover{
+     background-color: black;
+ }
+ 
+ .menu-vertical li a{
+     display: block;
+     color: white;
+     text-decoration: none;
+     padding: 15px 15px 15px 20px;
+ }
+ 
+ #html{
+     margin: auto;
+     padding: 20px;
+     max-width: 900px;
+     background: white;
+ 
+ }
+ 
